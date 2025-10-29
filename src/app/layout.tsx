@@ -98,6 +98,14 @@ export default async function RootLayout({
       <body
         className={`${inter.className} min-h-screen bg-white text-gray-900 dark:bg-black dark:text-gray-200`}
       >
+        {/* ========================================================= */}
+        {/* === 在这里插入 Umami 跟踪代码 === */}
+        <script 
+          defer 
+          src="https://umami.yuzen.qzz.io/script.js" 
+          data-website-id="d0819f17-ce10-42bc-9b7d-0fdb4c9f656f"
+        ></script>
+        {/* ========================================================= */}
         <ThemeProvider
           attribute='class'
           defaultTheme='system'
