@@ -99,11 +99,11 @@ export default async function RootLayout({
         className={`${inter.className} min-h-screen bg-white text-gray-900 dark:bg-black dark:text-gray-200`}
       >
         {/* ========================================================= */}
-        {/* === 在这里插入 Umami 跟踪代码 === */}
-        <script 
-          defer 
-          src="https://umami.yuzen.qzz.io/script.js" 
-          data-website-id="d0819f17-ce10-42bc-9b7d-0fdb4c9f656f"
+        {/* === 插入 Umami 跟踪代码 === */}
+        <script
+          defer
+          src="https://umami.yuzhe.de/script.js"
+          data-website-id="600f32bd-4a8c-4b15-b32a-5106710d0bd4"
         ></script>
         {/* ========================================================= */}
         <ThemeProvider
